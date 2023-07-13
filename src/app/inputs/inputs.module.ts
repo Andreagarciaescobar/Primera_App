@@ -1,0 +1,17 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { InputsRoutingModule } from './inputs-routing.module';
+import { InputComponent } from './components/input/input.component';
+
+
+@NgModule({
+  declarations: [
+    InputComponent
+  ],
+  imports: [
+    CommonModule,
+    InputsRoutingModule
+  ]
+})
+export class InputsModule { }
